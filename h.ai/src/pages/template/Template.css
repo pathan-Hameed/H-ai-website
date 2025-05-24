@@ -1,0 +1,146 @@
+body {
+  position: relative;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  padding: 2rem 4rem;
+}
+
+.search-bar .heading {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: playfair Display, nunito;
+}
+
+.search-bar .search-input {
+  text-align: left;
+  width: 80%;
+  padding: 1rem 1.5rem;
+  font-size: 14px;
+  outline: none;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 4px 4px 8px 1px rgba(128, 128, 128, 0.148);
+}
+
+.selected-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 2rem;
+}
+
+.tag-chip {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: default;
+  transition: all 0.3s ease;
+}
+
+.close-btn {
+  margin-left: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tags-section {
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 2rem;
+  border-top: 1px solid rgba(128, 128, 128, 0.477);
+}
+
+.default-tag {
+  background-color: white;
+  padding: 0.2rem 1rem;
+  border-radius: 10px;
+  text-wrap: nowrap;
+  border: none;
+  cursor: pointer;
+}
+
+.heading-tags {
+  display: flex;
+}
+
+.all-tags {
+  background-color: white;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  width: 70%;
+  position: absolute;
+  z-index: 1;
+  top: 2.5rem;
+  left: 2rem;
+  border-radius: 0 0 20px 20px;
+}
+
+.all-tags ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  color: rgb(96, 96, 96);
+}
+
+.all-tags ul li {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.template-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f1f1f;
+    color: #e0fff7;
+}
+
+.template-list {
+  width: 100%;
+  padding: 5rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  gap: 10px;
+}
+
+.page-btn {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.page-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.page-btn.active {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
