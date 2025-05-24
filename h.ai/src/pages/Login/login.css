@@ -1,0 +1,136 @@
+/* Overall container */
+.login-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+}
+
+/* Logo */
+.logo-container {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+
+.login-logo {
+    font-family: Playfair Display, serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+/* Center content */
+.login-main {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login-box-wrapper {
+  display: flex;
+  gap: 4rem;
+}
+
+/* Login form */
+.login-form {
+    margin-top: 2rem;
+  width: 300px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  color: gray;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  height: 3rem;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.forgot-link {
+    margin-bottom: 1rem;
+    text-align: right;
+    margin-top: -10px;
+}
+
+.forgot-link a {
+    font-size: 11px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-label {
+    font-size: 11px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.register-btn {
+    width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+  
+  /* Social login buttons */
+  .social-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding-left: 50px;
+  border-left: 1px solid #000000;
+}
+
+.social-login button {
+  padding: 1rem 4rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.google-btn {
+  background-color: green;
+}
+
+.facebook-btn {
+  background-color: #4267b2;
+}
+
+.twitter-btn {
+  background-color: #1da1f2;
+}
