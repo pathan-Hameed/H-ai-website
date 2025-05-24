@@ -16,10 +16,14 @@ export default function Navbar() {
     navigate("/");
   }
 
+  const handleLogo = (e) => {
+    navigate ('/'); // Redirect to registration page
+  };
+
   return (
     <nav className="navbar">
       <div className="left">
-        <div className="logo">H.ai</div>
+        <div className="logo" onClick={handleLogo}>H.ai</div>
         <div className="nav-links">
           <a onClick={handleHomeClick}>Home</a>
           <a onClick={handleTemplateClick}>Templates</a>

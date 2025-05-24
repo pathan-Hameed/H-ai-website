@@ -8,11 +8,15 @@ const Login = () => {
     navigate ('/register'); // Redirect to registration page
   };
 
+  const handleLogo = (e) => {
+    navigate ('/'); // Redirect to registration page
+  };
+
   return (
     <div className="login-container">
       {/* Logo */}
       <div className="logo-container">
-        <div className="login-logo">H.ai</div>
+        <div className="login-logo" onClick={handleLogo}>H.ai</div>
       </div>
 
       {/* Main Content */}

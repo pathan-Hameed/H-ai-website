@@ -1,83 +1,78 @@
 .register-container {
-    background-color: #ffffff;
-    height: 100vh;
-    display: flex;
-  }
-  
-  .logo-container {
-    position: absolute;
-    top: 4rem;
-    left: 4rem;
-  }
-  
-  .logo-image {
-    width: 120px;
-  }
-  
-  .register-main {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .register-box-wrapper {
-    display: flex;
-    gap: 4rem;
-  }
-  
-  .register-form {
-    width: 320px;
-  }
-  
-  .register-form h2 {
-    margin-bottom: 2rem;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 800;
-    font-family: poppins, nunito, sans-serif;
-  }
-  
-  .form-group {
-    margin-bottom: 1rem;
-  }
-  
-  .form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-  }
-  
-  .form-group input {
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .have-account {
-    margin-bottom: 1rem;
-    font-size: 0.9rem;
-  }
-  
-  .have-account a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  /* Social login buttons */
-  .social-register {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-  }
-  
-  .social-register button {
-    padding: 0.5rem 1rem;
-    border: none;
-    color: white;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+}
+
+.logo-container {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+
+.register-main {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.register-box-wrapper {
+  display: flex;
+  gap: 4rem;
+}
+
+.register-form {
+  width: 320px;
+}
+
+.register-form h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  font-family: poppins, nunito, sans-serif;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.have-account {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.have-account a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Social login buttons */
+.social-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-register button {
+  padding: 0.5rem 1rem;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}

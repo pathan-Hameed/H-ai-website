@@ -1,12 +1,20 @@
 import React from "react";
 import "./Register.css"; // Create this file next
+import { useNavigate } from "react-router-dom";
 
 const Register = () => {
+
+    const navigate = useNavigate();
+    
+  const handleLogo = (e) => {
+    navigate ('/'); // Redirect to registration page
+  };
+
   return (
     <div className="register-container">
       {/* Logo */}
       <div className="logo-container">
-      <div className="login-logo">H.ai</div>
+      <div className="login-logo" onClick={handleLogo}>H.ai</div>
       </div>
 
       {/* Main Content */}
