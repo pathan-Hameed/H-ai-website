@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import "./index.css";
 import Templates from "./pages/template/Templates";
-import Register from "./pages/Register/Register";
 import Login from "./pages/Login/login";
+import Register from "./pages/Register/Register";
 
 function App() {
   return (
